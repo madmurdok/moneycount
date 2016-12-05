@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +15,20 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+          <div className="row">
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-1">.col-md-1</div>
+          </div>
       </div>
     );
   }

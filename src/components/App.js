@@ -1,8 +1,11 @@
-import React, { Component } from 'react';
-import logo from '../logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import './App.css';
+import React, { Component } from 'react';
+import logo from '../logo.svg';
+import Accounts from './accounts/accounts';
+import CategoriesManager from './categories/categories';
+import StatisticManager from './statistics/statisticGraph';
 
 class App extends Component {
   render() {
@@ -16,18 +19,18 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
           <div className="row">
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
-              <div className="col-md-1">.col-md-1</div>
+              <div className="col-md-4 col-md-offset-2">
+                  <Accounts />
+              </div>
+              <div className="col-md-4">
+                  <StatisticManager />
+              </div>
+          </div>
+          <div className="row">
+              <div className="col-md-4 col-md-offset-2">
+                  <CategoriesManager  />
+              </div>
+              <div className="col-md-4">.col-md-4</div>
           </div>
       </div>
     );

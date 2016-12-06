@@ -20,7 +20,7 @@ class App extends Component {
         </p>
           <div className="row">
               <div className="col-md-4 col-md-offset-2">
-                  <Accounts />
+                  <Accounts amount="10000"/>
               </div>
               <div className="col-md-4">
                   <StatisticManager />

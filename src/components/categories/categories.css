@@ -1,0 +1,17 @@
+.m-bottom-0 {
+    margin-bottom: 0;
+}
+
+ul > li {
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.jumbotron p {
+    padding-right: 10px;
+}
+
+.jumbotron .btn-group {
+    top:-2px;
+}

@@ -1,12 +1,16 @@
 import React, {Component} from 'react';
-// import {Button} from 'react-bootstrap';
+import {Button, ButtonGroup} from 'react-bootstrap';
 
 class Category extends Component {
     render() {
         return (
-            <div className="row">
-
-            </div>
+            <li className="clearfix">
+                <p>{this.props.value}
+                    <ButtonGroup className="pull-right">
+                        <Button bsStyle="primary">+</Button>
+                    </ButtonGroup>
+                </p>
+            </li>
         )
     }
 }
